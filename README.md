@@ -1,7 +1,7 @@
 # MiscCodes
-Codes I write to practice new Programming Languages or Concepts
+Codes I write to practice new Programming Languages or Concepts.
 Simple to fairly complex Scripts/Progams I write in many different
-Lrograming Lanhuages. It also includes HTML, CSS, JavaScript, SQL (Maybe)
+Programing Languages. It also includes HTML, CSS, JavaScript, SQL (Maybe)
 codes I have written and will write in future whilst studying these technologies.
 From beginner friendly Python to intermediate java
 to C++, etc. Some concepts, especially Object Oriented Programming
