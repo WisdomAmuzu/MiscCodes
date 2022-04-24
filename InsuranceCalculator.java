@@ -30,7 +30,7 @@ public class Main {
         String insuranceTypeTable =
                 """
                         --------------------------------------------------------
-                        |          Insurance Type   |       Bonus      		   |
+                        |          Insurance Type   |       Bonus      	       |
                         --------------------------------------------------------
                         |     Women Compensation    |           20             |
                         --------------------------------------------------------
