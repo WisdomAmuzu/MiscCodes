@@ -1,16 +1,12 @@
-/**
- *
- * @author Sneaky
- */
-
-
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Scanner;
 
-// Trail Code
-public class InsuranceCalculator {
+public class Main {
     public static void main(String[] args) {
+        /*EloquentJs examples = new EloquentJs();
+        examples.fizzBuzz();)
+         */
         String yearTable =
                 """
                         ----------------------------------------------
@@ -20,13 +16,13 @@ public class InsuranceCalculator {
                         ----------------------------------------------
                         |          2 to 3 |          300             |
                         ----------------------------------------------
-                    	|         4 to 5 |          400              |
+                        |          4 to 5 |          400             |
                         ----------------------------------------------
-                		|          6 to 7 |          500             |
+                        |          6 to 7 |          500             |
                         ----------------------------------------------
-                		|          8 to 9 |          600             |
+                        |          8 to 9 |          600             |
                         ----------------------------------------------
-                		|          >=10   |          1000            |
+                        |          >=10   |          1000            |
                         ----------------------------------------------
                         """;
         System.out.print(yearTable);
@@ -34,7 +30,7 @@ public class InsuranceCalculator {
         String insuranceTypeTable =
                 """
                         --------------------------------------------------------
-                        |          Insurance Type   |          Bonus      	   |
+                        |          Insurance Type   |       Bonus      		   |
                         --------------------------------------------------------
                         |     Women Compensation    |           20             |
                         --------------------------------------------------------
@@ -85,9 +81,11 @@ public class InsuranceCalculator {
         try {
             FileWriter file = new FileWriter("myInsurance.txt", true);
             file.write("Amount Due: " + amountDue);
+            file.write("\r\n"); // NewLine
             file.close();
         } catch (IOException e) {
             e.printStackTrace();
         }
     }
 }
+
