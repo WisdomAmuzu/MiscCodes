@@ -1,3 +1,4 @@
+"""
 __author__ = "Black"
 
 import os, sys, time
@@ -69,3 +70,4 @@ for line in file.readlines(): # Mainloop
 tmp_file.read()
 file.close()
 tmp_file.close() # Close the created file
+"""
