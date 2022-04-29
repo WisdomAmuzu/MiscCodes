@@ -8,7 +8,7 @@
  * @author Sneaky
  */
 
-public class EloquentJs {
+public class EloquentEx {
     // My Solutions to the exercises in the EloquentJS book
 
     public void loopTriangle() {
