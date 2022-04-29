@@ -1,3 +1,4 @@
+"""
 import os
 import shutil
 
@@ -86,3 +87,4 @@ class FileOp(object):
 
     def move(self, dest):
         self.__move(dest=dest)
+"""
