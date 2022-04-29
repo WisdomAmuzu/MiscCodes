@@ -4,8 +4,10 @@ import shutil
 
 
 class FileOp(object):
-    """sorting and moving of files into separate
-    directories"""
+    """
+    sorting and moving of files into separate
+    directories
+    """
 
     def __init__(self):
         self.directory = ''
@@ -27,8 +29,10 @@ class FileOp(object):
         return filenames
 
     def __sort(self, lst):
-        """sorts a list of files into
-        the various categories"""
+        """
+    sorts a list of files into
+        the various categories
+        """
         path = self.directory
         file_list = self.__file_list(path)
         audio = ['.mp3', '.wav', '.amr', '.ogg', '.acc']
@@ -64,7 +68,9 @@ class FileOp(object):
         return self.s_files
 
     def __move(self, dest=''):
-        """move file into the given destination"""
+        """
+        move file into the given destination
+        """
         filetypes = ('images', 'audios', 'videos', 'others')
         for filetype in filetypes:
             if self.s_files[filetype] == []:
