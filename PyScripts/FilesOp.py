@@ -73,9 +73,9 @@ class TestFilesOp:
         for file in fileList:
             if file.endswith('bat'):
                 contains = True
-                continue
-            else:
                 break
+            else:
+                continue
         assert contains == False, "Should be false"
     """
 
