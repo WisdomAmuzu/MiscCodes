@@ -1,4 +1,4 @@
-__author__ = "Black"
+__author__ = "kod3kid"
 
 """
 Python Script to delete entries in a text file
